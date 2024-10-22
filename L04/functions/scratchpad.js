@@ -56,16 +56,16 @@ const details = {
             },
             "key": {
                 "type": "string",
-                "description": "The key to the entity"
+                "description": "The key to the entity. When scratchpad set to get result of another function, leave this value empty and the key will be retrieved by another function later."
             },
             "memory": {
                 "type": "string",
-                "description": "The text to store"
+                "description": "The text to store. When scratchpad set to get result of another function, leave this value empty and the memory will be retrieved by another function later."
             }
         },
-        "required": ["action", "key", "memory"]
+        "required": ["action","key","memory"]
     },
 },
-    "description": "Given an entity action, key and memory, this function will store, get, list or delete the memory"
+    "description": "Given an entity action, key and memory, this function will store, get, list or delete the memory. For set action, key and memory should be empty if this function stores a result that hasn't been retrieved yet."
 };
 export { execute, details };

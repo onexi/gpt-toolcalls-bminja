@@ -2,3 +2,15 @@ favorite_food, John likes ice cream
 john_married, John is married to Rita.
 John, all entries related to John
 entity, John like cars
+john, John is happy
+today, Monday
+John, John is happy.
+John, John is 20 years old
+[The joke content will be set here after retrieving it.], undefined
+joke, {{joke from getDadJoke}}
+, A dad washes his car with his son. But after a while, the son says, "why can't you just use a sponge?"
+joke, Where do fish keep their money? In the riverbank
+getTemp, 79
+getDadJoke, I ate a clock yesterday. It was so time consuming.
+dad_joke, Dad joke goes here.
+getCryptoPrice {"id": "bitcoin"}, 67312.94685205964
